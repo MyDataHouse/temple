@@ -10,12 +10,13 @@
     "strict": true,
     "noUnusedLocals": true,
     "declaration": true,
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": false,
     "esModuleInterop": true,
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
-    "exactOptionalPropertyTypes": true
+    "exactOptionalPropertyTypes": true,
+    "useDefineForClassFields": false
   },
   "include": ["src"]
 }
